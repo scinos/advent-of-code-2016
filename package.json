@@ -1,0 +1,9 @@
+{
+  "name": "advent-of-code-2016",
+  "version": "1.0.0",
+  "description": "Solutions for http://adventofcode.com/2016",
+  "main": "index.js",
+  "repository": "git@github.com:scinos/advent-of-code-2016.git",
+  "author": "Sergio Cinos <sergio.cinos@gmail.com>",
+  "license": "MIT"
+}
