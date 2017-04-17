@@ -1,10 +1,8 @@
-const day1 = require('../../src/day01');
 const expect = require('chai').expect;
 const fs = require('fs');
 const path = require('path');
 
-const part1 = day1.part1;
-const part2 = day1.part2;
+const { part1, part2 } = require('../../src/day01');
 
 describe('--- Day 1: No Time for a Taxicab ---', () => {
     describe('--- Part 1 ---', () => {

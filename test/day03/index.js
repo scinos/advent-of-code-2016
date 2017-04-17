@@ -1,10 +1,8 @@
-const day3 = require('../../src/day03');
 const expect = require('chai').expect;
 const fs = require('fs');
 const path = require('path');
 
-const part1 = day3.part1;
-const part2 = day3.part2;
+const { part1, part2 } = require('../../src/day03');
 
 describe('--- Day 3: Squares With Three Sides ---', () => {
     describe('--- Part 1 ---', () => {

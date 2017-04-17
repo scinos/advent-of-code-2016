@@ -1,9 +1,8 @@
-const day4 = require('../../src/day04');
 const expect = require('chai').expect;
 const fs = require('fs');
 const path = require('path');
 
-const { part1, part2, roomInfo, decrypt } = day4;
+const { part1, part2, roomInfo, decrypt } = require('../../src/day04');
 
 describe('--- Day 4: Security Through Obscurity ---', () => {
     describe('Detect real room', () => {

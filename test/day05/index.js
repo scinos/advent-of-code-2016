@@ -1,9 +1,8 @@
-const day5 = require('../../src/day05');
 const expect = require('chai').expect;
 const fs = require('fs');
 const path = require('path');
 
-const { part1, part2 } = day5;
+const { part1, part2 } = require('../../src/day05');
 
 describe('--- Day 5: How About a Nice Game of Chess? ---', () => {
     describe('--- Part 1 ---', () => {
