@@ -5,7 +5,7 @@ const path = require('path');
 
 const { part1, part2, roomInfo, decrypt } = day4;
 
-describe.only('--- Day 4: Security Through Obscurity ---', () => {
+describe('--- Day 4: Security Through Obscurity ---', () => {
     describe('Detect real room', () => {
         it('aaaaa-bbb-z-y-x-123[abxyz] is a real room', () => {
             expect(roomInfo('aaaaa-bbb-z-y-x-123[abxyz]').isReal).to.equal(true);
