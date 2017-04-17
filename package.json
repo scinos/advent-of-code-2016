@@ -16,6 +16,6 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha test --recursive"
+    "test": "mocha test --recursive --no-timeouts"
   }
 }
