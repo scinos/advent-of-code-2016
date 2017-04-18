@@ -20,6 +20,13 @@
         "no-shadow": "off",
         "no-mixed-operators": "off",
         "no-cond-assign": "off",
-        "no-continue": "off"
+        "no-continue": "off",
+        "comma-dangle": ["error", {
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "always-multiline",
+            "exports": "always-multiline",
+            "functions": "ignore"
+        }]
     }
 }
