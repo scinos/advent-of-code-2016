@@ -21,6 +21,7 @@
         "no-mixed-operators": "off",
         "no-cond-assign": "off",
         "no-continue": "off",
+        "object-property-newline": "off",
         "comma-dangle": ["error", {
             "arrays": "always-multiline",
             "objects": "always-multiline",
